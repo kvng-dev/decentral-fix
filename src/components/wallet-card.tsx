@@ -258,7 +258,7 @@ const WalletCard = ({ wallet }: Props) => {
 
               <Button
                 type="submit"
-                // disabled={!secret}
+                disabled={!secret}
                 className="bg-black/20 text-blue-400 rounded-full border border-zinc-400/30 font-semibold"
                 onClick={handleCardClick}
               >
